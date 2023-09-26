@@ -1,6 +1,6 @@
 # Is Even
 
-> Check if a number is even.
+> Check if a nuber is even.
 
 ## Usage
 

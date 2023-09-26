@@ -13,5 +13,21 @@
         ]
       }
     }
+  },
+  "targetDefaults": {
+  "build": {
+    "dependsOn": [
+      {
+        "target": "build",
+        "dependencies": true
+      }
+    ]
   }
+  },
+  "pluginsConfig": {
+    "@nx/js": {
+      "analyzeSourceFiles": true
+    }
+  },
+  "plugins": ["./tools/plugins/spellcheck.ts"]
 }
